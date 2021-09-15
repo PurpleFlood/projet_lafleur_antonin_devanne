@@ -1,0 +1,40 @@
+html
+{
+    background-color: #7ae00d;
+}
+
+body
+{
+    background-color: #70c218;
+}
+
+main
+{
+    text-align: center;
+    background-color: #cc49b6;
+}
+
+nav
+{
+    background-color: #e0cb0d;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.illustration
+{
+    align-content: center;
+    width: 50px;
+    float: left;
+}
+
+table, thead, tr, tbody, td
+{
+    border-style: solid;
+    width: 1px;
+    border-collapse: collapse;
+}
+
