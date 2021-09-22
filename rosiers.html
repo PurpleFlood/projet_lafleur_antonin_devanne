@@ -5,33 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
-    <title>Accueil Société Lafleur</title>
+    <title>Nos rosiers</title>
 </head>
 <body>
     <header class="center">
         <img class="illustration" src="Lafleur_Images/ACCUEIL.JPG" alt="Logo rose">
-        <h1>Société Lafleur</h1>
+        <h1 class="souligne">Société Lafleur</h1>
         <h2>6, cloitre St Aignan<br />
             45000, Orléans </h2>
 
         <nav>
-            <a href="accueil.html">Accueil</a>
-            <p>Nos produits</p>
-            <a href="bulbes.html">Bulbes</a>
-            <a href="rosiers.html">Rosiers</a>
-            <a href="massifs.html">Plantes à massif</a><br />
-                                                              </nav>
+            <a href="accueil.html" font-size="15">Accueil</a>
+            <h3 style="color: red; font-style: italic;">Nos produits</h3>
+            <a href="bulbes.html" font-size="15" class="marge">Bulbes</a>
+            <a href="rosiers.html" font-size="15" class="marge">Rosiers</a>
+            <a href="massifs.html" font-size="15">Plantes à massif</a>
+        </nav>
+
     </header>
     <main>
-        <h1>"Dites-le avec Lafleur"</h1>
-        <img src="Lafleur_Images/ACCUEIL.JPG" alt="Rose">
-        <h2>pour recevoir un bon de commande <br />
-        Appelez notre service commercial au 03.22.84.65.74</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Image </th>
+                    <th>Code </th>
+                    <th>Libellé </th>
+                    <th>Prix </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="Lafleur_Images/rosiers_gdefleur.jpg" alt="Rosiers grande fleur"></td>
+                    <td>r01</td>
+                    <td>1 pied spécial "grandes fleurs"</td>
+                    <td>20 €</td>
+
+                </tr>
+                <tr>
+                    <td><img src="Lafleur_Images/rosiers_parfum.jpg" alt="Bulbes dahlia"></td>
+                    <td>r02</td>
+                    <td>Une variété sélectionnée pour son parfum</td>
+                    <td>9 €</td>
+                </tr>
+                <tr>
+                    <td><img src="Lafleur_Images/rosiers_arbuste.jpg" alt="Bulbes glaïeul"></td>
+                    <td>r03</td>
+                    <td>Rosier arbuste</td>
+                    <td>8 €</td>
+                </tr>
+            </tbody>
+
+        </table>
 
     </main>
 
 
-    <footer>
+    <footer class="center">
         <p>© copyright Antonin Devanne réalisé le 13/09/21</p>
     </footer>
 </body>

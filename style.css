@@ -1,22 +1,52 @@
 html
 {
-    background-color: #7ae00d;
+    background-color: #2dcc70;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body
 {
-    background-color: #70c218;
+    background-color: #27ae61;
+    padding: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 main
 {
     text-align: center;
-    background-color: #cc49b6;
+    background-color: #fd79a8;
 }
 
 nav
 {
-    background-color: #e0cb0d;
+    background-color: #febe76;
+}
+
+table, thead, tr, tbody, td
+{
+    border-style: solid;
+    width: 1px;
+    border-collapse: collapse;
+}
+
+table
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo
+{
+    float: left;
+    width: 5%;
+}
+
+.marge
+{
+    align-content: center;
+    width: 50px;
+    float: center;
 }
 
 .center
@@ -31,10 +61,23 @@ nav
     float: left;
 }
 
-table, thead, tr, tbody, td
+.taille-texte
 {
-    border-style: solid;
-    width: 1px;
-    border-collapse: collapse;
+    font-size: 15px;
 }
+
+.souligne
+{
+    text-decoration: underline;
+}
+
+.menu
+{
+    text-align: center;
+
+}
+
+
+
+
 
